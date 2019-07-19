@@ -1,0 +1,24 @@
+body {
+    background-image: url("../images/portfolio-background.png");
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.nav-extended {
+    background-color:blue;
+}
+
+.nav-extended ul li a{
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
