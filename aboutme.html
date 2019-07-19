@@ -22,7 +22,9 @@
     <nav class="nav-extended">
         <div class="nav-wrapper">
             <a href="home.html" class="brand-logo right">Abe's Portfolio</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
         </div>
         <div class="row">
             <div class="nav-content">
@@ -45,9 +47,19 @@
         <li class="tab"><a class="active" href="contact.html">Talk to Abe</a></li>
     </ul>
 
-    <div id="backgroundPic"></div>
 
 
+        <div class="aboutme">
+                <div class="row">
+                <div class="col m5">
+                <img src="assets/images/abe.jpg">
+                </div>
+                <div class="col m7">
+                <p>My name is Abrahan Jose Rodriguez but you can call me Abe for short. I'm not really one to speak on myself extensively. I know, over time, I'll be adding more and more onto this portfolio. Who am I ultimately writing this for? No clue. But hopefully, I can share more on myself and who I am as a person, a student, a friend, and, if I don't mess this us, a web developer.</p>
+                <p>Let's take a journey as we see if I can cut it in the world of web development. We're already one month in!</p>
+                </div>
+                </div>
+          </div>
 
 
 
@@ -59,9 +71,16 @@
         </div>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="#"></script>
+    <script src="text/javascript">
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
 
 </body>
 
